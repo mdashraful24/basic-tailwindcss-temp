@@ -5,7 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailwindCSS</title>
+    <!-- Google font cdn -->
+    
+    <!-- Font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/c9b48ef8a4.js" crossorigin="anonymous"></script>
+    <!-- Tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>

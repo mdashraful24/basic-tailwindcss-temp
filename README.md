@@ -6,7 +6,7 @@
 1. Temporarily Bypass Execution Policy (Recommended)
 - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-# Disable
+# Disable (Highly Recommended)
 1. Set Execution Policy to Restricted (Disable Script Execution)
 - Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
 
